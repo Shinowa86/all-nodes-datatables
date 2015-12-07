@@ -16,5 +16,11 @@ $(document).on('ready', function (e) {
   
         }
     });
+    
+    jQuery( "input", $('.table').dataTable().fnGetNodes()).each(function(result){
+    	
+    	//Do stuff
+    	
+    });
 
 });
